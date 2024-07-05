@@ -1,15 +1,16 @@
 public class Author {
-    String NameAuthor;
-    String FamousAuthor;
+    public static String author1;
+    private String nameAuthor;
+        private String famousAuthor;
 
     public Author(String name, String famous) {
-        this.NameAuthor = name;
-        this.FamousAuthor = famous;
-    }
-    public String getNameAuthor() {
-        return this.NameAuthor;
-    }
-    public String getFamousAuthor() {
-        return this.FamousAuthor;
-    }
+            this.nameAuthor = name;
+            this.famousAuthor = famous;
+        }
+        public String getNameAuthor () {
+            return this.nameAuthor;
+        }
+        public String getFamousAuthor () {
+            return this.famousAuthor;
+        }
 }
